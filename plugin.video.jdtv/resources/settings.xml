@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   
+    	<category label="Account">
+	<setting id="username" label="Username" type="text" default="" />
+	<setting id="password" label="Password" type="text" default="" />
+	<setting id="active"  type="hidden" default="true" />
+     <setting id="usaoffset" type="text" option="writeable" label="Offset Mini seconds" default="0"/>
+     <setting id="color" type="text" option="writeable" label="Color Of Guide" default="yellow"/>
+	 <setting id="qual" type="select" label="User High Res Images" values="High|Low" default="Low" />
+	 <setting id="view" type="text" label="Select View" default="515" />
+
+    </category>
+
+</settings>

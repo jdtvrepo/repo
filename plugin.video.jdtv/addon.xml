@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.jdtv"
+       name="JDTV"
+       version="19.0"
+       provider-name="Bristow TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Old Tv Shows And Live USA Channels</summary>
+    <language>en</language>
+    <description lang="en">Old Tv Shows And Live USA Channels</description>
+     <platform>all</platform>
+  </extension>
+</addon>
